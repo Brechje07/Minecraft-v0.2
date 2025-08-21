@@ -1,0 +1,107 @@
+html {
+    font-size: 100%;
+}
+body {
+    background-color: rgb(255 207 234);
+}
+
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255 147 208);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 3rem;
+}
+
+.home_button {
+    display: flex;
+    justify-content: center;
+}
+
+.home_button img {
+    margin-top: 20%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+#pic {
+    width: 275px;
+    height: 240px;
+}
+
+#steve_pic {
+    width: 100%;
+    height: 240px;
+}
+
+#firework_pic {
+    width: 275px;
+    height: 220px;
+}
+
+.option_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.previous_button {
+
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column; /* zet form en aside onder elkaar */
+    align-items: center;    /* center horizontaal */
+    justify-content: center; /* als je ook verticaal wil centreren binnen main */
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.container-form input {
+    border-radius: 3px;
+    background-color:rgb(255, 229, 244);
+    border-color: rgb(255 147 208);
+    margin-bottom: 6px;
+}
+
+.container-form textarea {
+    border-radius: 3px;
+    background-color:rgb(255, 229, 244);
+    border-color: rgb(255 147 208);
+    border-width: 2px;
+}
+
+.container-form button {
+    border-radius: 2px;
+    background-color: rgb(255 147 208);
+    border-color: rgb(249, 185, 221);
+    border-style: outset;
+}
+
+.container-form form {
+    width: 50%;
+    max-width: 400px;
+    margin: 1rem auto;
+}
+
+.container-form aside {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: rgb(50, 0, 29);
+}
+
+.container-form p {
+    font-size: 1rem;
+    color: rgb(50, 0, 29);
+}
