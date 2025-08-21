@@ -1,0 +1,60 @@
+html {
+    font-size: 100%;
+}
+body {
+    background-color: rgb(255 207 234);
+}
+
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255 147 208);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 3rem;
+}
+
+.home_button {
+    display: flex;
+    justify-content: center;
+}
+
+.home_button img {
+    margin-top: 20%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+#pic {
+    width: 275px;
+    height: 240px;
+}
+
+#steve_pic {
+    width: 100%;
+    height: 240px;
+}
+
+#firework_pic {
+    width: 275px;
+    height: 220px;
+}
+
+.option_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.previous_button {
+
+}

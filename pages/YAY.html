@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+        <title>YAY</title>
+        <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" >
+    </head>
+    <body>
+        <header>
+            <div class="home_button">
+                <a href="/index.html">
+                <img src="../images/home.png" alt="home"></a>
+            </div>
+        </header>
+
+        <main>
+           <div class="center">
+                <div class="main">
+                    <img src="../images/strawberrycow.webp"></div>
+
+                <div class="main">
+                    <img src="../images/q/YAY_q.png"></div>
+
+                <div class="main">
+                    <img src="../images/firework.gif" alt="firework" id="firework_pic"></div>
+            </div>
+
+            <br>
+
+            <form id="myForm" method="POST">
+                <input type="text" name="name" placeholder="name" required><br>
+                <input type="email" id="emailInput" name="email" placeholder="Email Adress" required><br>
+                <textarea name="message" placeholder="type your message here!">WE'RE GONNA PLAY MINECRAFT RN!</textarea><br>
+                <button type="submit">Let them know!</button>
+           </form>
+
+           <aside>
+            Also want to recieve updates of when your friends can play?
+            register your email <a href="https://formsubmit.co/email-link" target="_blank">here</a>!
+           </aside>
+        </main>
+
+        <footer>
+            <div class="previous_button">
+                <a href="../index.html"><img src="../images/previous.jpg"></a>
+            </div>
+        </footer>
+
+        <script>
+        document.getElementById("myForm").addEventListener("submit", function(e) {
+            let email = document.getElementById("emailInput").value.trim();
+            if (email) {
+                this.action = "https://formsubmit.co/" + encodeURIComponent(email);
+            }
+        });
+        </script>
+    </body>
+</html>
